@@ -1,0 +1,30 @@
+<p>Atlanta Aquarium</p>
+<div class="atl-aquarium">
+  <div class="images">
+    <div *ngFor="let image of aquarium">
+      <img [src]="image" (click)="open(image)" class="thumbnail" />
+    </div>
+  </div>
+</div>
+
+<p>Atlanta Zoo</p>
+<div class="atl-zoo">
+  <div class="images">
+    <div *ngFor="let image of zoo">
+      <img [src]="image" (click)="open(image)" class="thumbnail" />
+    </div>
+  </div>
+</div>
+
+<p>Crowders Mountain</p>
+<div class="neature">
+  <div class="images">
+    <div *ngFor="let image of neature">
+      <img [src]="image" (click)="open(image)" class="thumbnail" />
+    </div>
+  </div>
+</div>
+
+<div class="overlay" *ngIf="isOpen" (click)="close()">
+  <img [src]="imageUrl" class="full-screen-image" />
+</div>

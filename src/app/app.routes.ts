@@ -5,7 +5,8 @@ import { PhotographyComponent } from './camera/photography/photography.component
 import { VideographyComponent } from './camera/videography/videography.component';
 
 export const routes: Routes = [
-  { path: '', component: IndexComponent },
+  { path: '', component: AboutComponent },
+  { path: 'home', component: IndexComponent },
   { path: 'about', component: AboutComponent },
   { path: 'photography', component: PhotographyComponent },
   { path: 'videography', component: VideographyComponent },
