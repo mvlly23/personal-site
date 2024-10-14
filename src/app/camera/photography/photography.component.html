@@ -16,6 +16,15 @@
   </div>
 </div>
 
+<p>Renaissance Park</p>
+<div class="ren-park">
+  <div class="images">
+    <div *ngFor="let image of renaissance_park">
+      <img [src]="image" (click)="open(image)" class="thumbnail" />
+    </div>
+  </div>
+</div>
+
 <p>Crowders Mountain</p>
 <div class="neature">
   <div class="images">

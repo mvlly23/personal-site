@@ -15,6 +15,7 @@ export class PhotographyComponent {
   aquarium = ['/P1011568.jpg', '/P1011571.jpg', '/P1011584.jpg', "/P1011585.jpg", "/P1011612.jpg", "/P1011620.jpg", "/P1011628.jpg", "/P1011631.jpg", "/P1011639.jpg"];
   zoo = ["/P1011468.JPG", "/P1011472.JPG", "/P1011512.jpg", "/P1011532.jpg", "/P1011538.jpg"];
   neature = ["/P1000162.jpg", "/P1000189.jpg", "/P1000219.jpg", "/P1000241.jpg", "/P1000249.jpg", "/P1000253.jpg"];
+  renaissance_park = ["/P1012046.jpg", "P1012075.jpg", "/P1012036.jpg", "/P10102070.jpg", "/P1012111.jpg", "/P1012012.jpg", "/P1012130.jpg"];
   @Input() imageUrl = '';
   isOpen = false;
 
