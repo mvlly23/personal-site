@@ -1,3 +1,12 @@
+<p>Renaissance Park</p>
+<div class="ren-park">
+  <div class="images">
+    <div *ngFor="let image of renaissance_park">
+      <img [src]="image" (click)="open(image)" class="thumbnail" />
+    </div>
+  </div>
+</div>
+
 <p>Atlanta Aquarium</p>
 <div class="atl-aquarium">
   <div class="images">
@@ -11,15 +20,6 @@
 <div class="atl-zoo">
   <div class="images">
     <div *ngFor="let image of zoo">
-      <img [src]="image" (click)="open(image)" class="thumbnail" />
-    </div>
-  </div>
-</div>
-
-<p>Renaissance Park</p>
-<div class="ren-park">
-  <div class="images">
-    <div *ngFor="let image of renaissance_park">
       <img [src]="image" (click)="open(image)" class="thumbnail" />
     </div>
   </div>
