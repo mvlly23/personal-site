@@ -1,3 +1,12 @@
+<p>Evergreen Nature Preserve</p>
+<div class="evergreen">
+  <div class="images">
+    <div *ngFor="let image of evergreen">
+      <img [src]="image" (click)="open(image)" class="thumbnail" />
+    </div>
+  </div>
+</div>
+
 <p>Renaissance Park</p>
 <div class="ren-park">
   <div class="images">
