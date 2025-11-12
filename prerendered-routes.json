@@ -1,9 +1,0 @@
-{
-  "routes": [
-    "/",
-    "/about",
-    "/home",
-    "/photography",
-    "/videography"
-  ]
-}
